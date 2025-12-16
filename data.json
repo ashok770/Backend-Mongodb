@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "name": "Rahul",
+    "email": "rahul@gamil.com",
+    "password": "123456"
+  },
+  {
+    "id": "2",
+    "name": "Karan",
+    "email": "karan@gamil.com",
+    "password": "123456"
+  },
+  {
+    "id": "3",
+    "name": "Abhi",
+    "email": "abhi@gamil.com",
+    "password": "123456"
+  },
+  {
+    "id": "4",
+    "name": "TestUser",
+    "email": "test@gmail.com",
+    "password": "123\n"
+  },
+  {
+    "id": "100",
+    "name": "MongoUser",
+    "email": "mongo@test.com",
+    "password": "test123\n"
+  }
+]
