@@ -6,6 +6,7 @@ const app = express();
 const PORT = 5000;
 
 app.use("/api/v3/user", userRoutes);
+app.use("api/v3/",authRoute);
 
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
