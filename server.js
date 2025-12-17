@@ -1,6 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const userRoutes = require("./routes/userRoutes");
+const authRoutes = require("./routes/authRoutes");
 const dotenv = require("dotenv");
 dotenv.config({ path: "./config.env" });
 
@@ -17,6 +18,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Routes
+app.use("/api/v3/auth", authRoutes);
 app.use("/api/v3/user", userRoutes);
 
 // Start server

@@ -1,0 +1,3 @@
+npm i jwt
+npm i bcrypt
+npm i cors
